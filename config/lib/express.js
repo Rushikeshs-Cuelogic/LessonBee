@@ -20,7 +20,7 @@ const initMiddleware = (app) => {
 
     app.use(bodyParser.json());
 
-    app.use('/', authenticate.authenticate());
+    //app.use('/', authenticate.authenticate());
 
     // Add the cookie parser and flash middleware
     /*app.use(cookieParser());*/
